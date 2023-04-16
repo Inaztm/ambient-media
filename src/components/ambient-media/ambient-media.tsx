@@ -13,7 +13,7 @@ export class AmbientMedia {
 
   @Prop() intervalTime: number = 100;
   @Prop() oneshot: boolean = false;
-  @Prop() strength?: 'low'|'big' = 'big';
+  @Prop() strength?: 'low'|'high' = 'high';
 
   timer: number;
 
