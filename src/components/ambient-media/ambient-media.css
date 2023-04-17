@@ -1,7 +1,7 @@
 :host {
   --ambient-media-radius: 1rem;
-  --ambient-media-blur: 6.1rem;
-  --ambient-media-opacity: 0.5;
+  --ambient-media-blur: 4.1rem;
+  --ambient-media-opacity: 0.81;
   display: inline-block;
   position: relative;
 }
@@ -15,8 +15,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1.05);
-  filter: blur(var(--ambient-media-blur));
+  transform: translate(-50%, -50%) scale(1.1);
+  filter: blur(var(--ambient-media-blur)) brightness(0.81);
   opacity: var(--ambient-media-opacity);
 }
 

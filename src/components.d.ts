@@ -9,7 +9,7 @@ export namespace Components {
     interface AmbientMedia {
         "intervalTime": number;
         "oneshot": boolean;
-        "strength"?: 'low'|'big';
+        "strength"?: 'low'|'high';
     }
     interface MyComponent {
         /**
@@ -48,7 +48,7 @@ declare namespace LocalJSX {
     interface AmbientMedia {
         "intervalTime"?: number;
         "oneshot"?: boolean;
-        "strength"?: 'low'|'big';
+        "strength"?: 'low'|'high';
     }
     interface MyComponent {
         /**
